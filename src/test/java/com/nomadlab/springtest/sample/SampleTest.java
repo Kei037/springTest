@@ -31,7 +31,7 @@ class SampleTest {
     }
 
     @Test
-    public void testConnection() throws Exception { log.info("testCode");
+    public void testConnection() throws Exception {
         Connection connection = dataSource.getConnection();
         log.info(connection);
         Assertions.assertNotNull(connection);
